@@ -1,1 +1,1 @@
-document.write(Date());
+document.getElementById("hello").innerHTML = "Hello World";
