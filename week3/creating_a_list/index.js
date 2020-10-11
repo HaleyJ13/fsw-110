@@ -3,7 +3,11 @@
  var h1 = document.createElement("h1");
  h1.textContent = ("Hello World");
  document.body.append(h1)
-
+ h1.style.color = "blue";
+ h1.style.fontFamily = "Arial";
+ h1.style.fontSize = "50px";
+ h1.style.backgroundColor = "red";
+ 
 var firstName = [`Steve` ,`Larry` , `Joe` , `Shirley` , `Steph` , `Nate` , `Rick` , `Emily`
     ];
 //     var firstName = [0, 1]
@@ -23,6 +27,7 @@ var firstName = [`Steve` ,`Larry` , `Joe` , `Shirley` , `Steph` , `Nate` , `Rick
    console.log(firstName[i])
  }
 console.log(typeof firstName)
+
 
  for (index = 0; index < 8; index++) {
    console.log(index)
