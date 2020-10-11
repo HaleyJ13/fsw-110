@@ -22,6 +22,8 @@ var firstName = [`Steve` ,`Larry` , `Joe` , `Shirley` , `Steph` , `Nate` , `Rick
  for (var i = 0; i < 10; i++){
   var h1 = document.createElement("h1");
    h1.textContent = ("Hello World");
+   h1.style.backgroundColor="blue";
+   h1.style.color = "white";
    document.body.append(h1)
    console.log(i)
    console.log(firstName[i])
