@@ -1,0 +1,25 @@
+form { 
+    display:block;
+    background-color: rgb(7, 88, 80); 
+    color:white;
+    padding: 20px; 
+    width: 540px;
+ }
+legend { 
+    font-weight: bold;
+ }
+label { 
+      display: inline-block;
+      width: 200px; 
+      float: left; 
+      clear: left;
+     }
+input.text { 
+    display: block; 
+    width: 300px; 
+    float: left; 
+}
+input.submit { 
+    margin:20px 0 0 200px; 
+    width: auto; 
+}
