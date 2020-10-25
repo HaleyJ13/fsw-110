@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\submit_events"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "airline_events"
+	}
+}

@@ -7,28 +7,49 @@
     <title>Document</title>
 </head>
 <body>
+    
     <form name="myForm">
         <div class="box1">
-            <input type="text" name="firstname" placeholder="First Name"></div><br>
-            <div id="a"><input type="text" name="lastname" placeholder="Last Name"></div><br>
-            <input type="number" placeholder="Age" required/>
+            <h1>Pacific Airlines</h1>
+            <input type="text" name="fname" placeholder="First Name"></div><br>
+            <div id="a"><input type="text" name="lname" placeholder="Last Name"></div><br>
+            <input type="number" name="age" placeholder="Age" required/>
             <br>
                       
         <fieldset>
         <legend> Gender </legend>
         <div>
-            <form name="myForm"> 
-                Male:<input type=radio name="gender"/>
-                Female:<input type=radio name="gender"/>
+            <!-- <form name="myForm">  -->
+                Male:<input value="Male" type=radio name="gender"/>
+                Female:<input value="Female" type=radio name="gender"/>
             </div>
-        </fieldset>
-        <fieldset>
-        <legend> Food </legend>
-        <div><label> <input type=checkbox> vegetarian </label></div>
-        <div><label> <input type=checkbox> Kosher </label></div>
-        <div><label> <input type=checkbox> Lactose Free </label></div>
+            </fieldset>
         
-        </fieldset>
+        <fieldset>
+        <legend> Location </legend>
+        
+        <select name="location">
+            <option value="Select Destination">Select Destination</option>
+          <option value="Tahiti">Tahiti</option>
+          <option value="Scotland">Scotland</option>
+          <option value="Norway">Norway</option>
+        </select>
+    
+            </fieldset>
+            <fieldset>
+            <legend> Dietary restrictions </legend>
+            <div>
+            
+            Vegetarian<input type="checkbox" value="vegetarian" name="diet"/>
+                </div>
+            <div>
+            Kosher <input type="checkbox" value="kosher" name="diet"/>
+            </div>
+             <div>
+             Lactose <input type="checkbox" value="lactose" name="diet"/>
+            </div>
+            </fieldset>
+            <input type="button" value="Submit" onclick="display();">
       </form>
       <script src="index.js"></script>
 </body>
